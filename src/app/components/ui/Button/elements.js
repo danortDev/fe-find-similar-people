@@ -5,6 +5,7 @@ export const Container = styled('button', {
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
+  cursor: 'pointer',
   color: `${getColor('WHITE')}`,
   background: `${getColor('PRIMARY')}`,
   marginTop: '20px',
