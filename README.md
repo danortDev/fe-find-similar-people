@@ -16,3 +16,12 @@ You need to use yarn instead of npm because there is currently a bug in Webpack 
 All just need is to have yarn installed. Then you should run:
 - `yarn install`
 - `yarn start`
+
+## To run the API locally (only option for now)
+- clone this project https://github.com/danortDev/api-find-similar-people
+- run it.
+
+
+## Pending things I will like to add:
+- Configure the endpoints url based on env config.
+- Unit test (unfortunately didn't have the time)
