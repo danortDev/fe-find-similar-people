@@ -1,11 +1,13 @@
 import React from 'react';
 import Navbar from 'app/components/ui/Navbar';
-import { MainWrapper } from './elements';
+import { MainWrapper, Content } from './elements';
 
 const App = ({ children }) => (
   <MainWrapper>
     <Navbar />
-    {children}
+    <Content>
+      {children}
+    </Content>
   </MainWrapper>
 );
 
