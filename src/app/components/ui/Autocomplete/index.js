@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import AsyncSelect from 'react-select/lib/Async';
 import debounce from 'debounce-promise';
 import search from 'app/client/search';
