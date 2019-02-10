@@ -1,7 +1,7 @@
 import tinycolor from 'tinycolor2';
 
 const COLOURS = {
-  PRIMARY: '##00ACC1',
+  PRIMARY: '#00ACC1',
   GREY: '#F5F5F5',
   BLACK: '#000000',
   WHITE: '#FFFFFF',
