@@ -13,7 +13,7 @@ export const Container = styled('div', {
 
 
 export const Title = styled('h1', {
-  fontSize: '1.2em'
+  fontSize: '1em'
 });
 
 export const LogoContainer = styled('div', {
