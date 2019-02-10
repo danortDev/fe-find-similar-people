@@ -1,6 +1,4 @@
-const BASE_URL = process.env.NODE_ENV === 'production'
-  ? 'https://api-find-similar-people.herokuapp.com'
-  : 'http://localhost:3030';
+const BASE_URL = 'https://api-find-similar-people.herokuapp.com';
 
 const ENDPOINTS = {
   SEARCH: `${BASE_URL}/people`,
