@@ -1,5 +1,5 @@
 const BASE_URL = process.env.NODE_ENV === 'production'
-  ? 'http://localhost:3030'
+  ? 'https://api-find-similar-people.herokuapp.com'
   : 'http://localhost:3030';
 
 const ENDPOINTS = {
