@@ -1,12 +1,13 @@
 import React from 'react';
+import { withRouter } from 'react-router-dom';
 import logo from './assets/logo';
 import icon from './assets/icon';
 import { Container, Title, LogoContainer, Logo, Icon } from './elements';
 
 
-const Navbar = () => (
+const Navbar = ({ history }) => (
   <Container>
-    <LogoContainer>
+    <LogoContainer onClick={() => history.push('/')}>
       <Icon src={icon} alt="Find similars" />
       <Logo src={logo} alt="Torre"/>
     </LogoContainer>
@@ -16,4 +17,4 @@ const Navbar = () => (
   </Container>
 );
 
-export default Navbar;
+export default withRouter(Navbar);
