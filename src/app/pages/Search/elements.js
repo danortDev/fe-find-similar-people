@@ -5,7 +5,9 @@ import getColor from 'app/palette';
 export const Container = styled('div', {
   display: 'flex',
   flexDirection: 'column',
-  padding: '80px'
+  padding: '80px',
+  maxWidth: '600px',
+  margin: '0 auto'
 });
 
 export const Note = styled('h1', {

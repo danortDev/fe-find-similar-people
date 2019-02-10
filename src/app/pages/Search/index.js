@@ -11,8 +11,8 @@ class Search extends Component {
     username: ''
   }
 
-  handleChange = ({ value: username }) => {
-    console.log('username', username);
+  handleChange = (user) => {
+    const { value: username } = user || {};
     this.setState(() => ({ username }));
   }
 
