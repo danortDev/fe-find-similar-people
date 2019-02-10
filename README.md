@@ -27,4 +27,5 @@ All just need is to have yarn installed. Then you should run:
 
 ## Pending things I will like to add:
 - Configure the endpoints url based on env config.
-- Unit test (unfortunately didn't have the time)
+- Unit test (unfortunately didn't have the time).
+- Fix some ui issues for mobile.
