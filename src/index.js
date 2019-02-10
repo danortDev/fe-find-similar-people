@@ -2,6 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
 
+// global css
+import './css/modules/reset.css';
+import './css/modules/typography.css';
+
+
 ReactDOM.render(
   <div> Hello World!! </div>,
   document.getElementById('root')
